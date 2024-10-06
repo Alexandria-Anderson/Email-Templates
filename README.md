@@ -11,7 +11,7 @@
 
 
 ### Samples
-![email_temp_apparel](sample.png)  ![email_temp_apparel](sample_2.png)
+![email_temp_apparel](img/sample.png)  ![email_temp_apparel](img/sample_2.png)
 
 ## Usages
 
