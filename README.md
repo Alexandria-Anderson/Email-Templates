@@ -1,8 +1,8 @@
 # Email-Templates
 
-##Collection: HTML Email Templates##
+## Collection: HTML Email Templates
 
-###The Files###
+### The Files
 
 - **email_temp_apparel** --> A modern and trendy design perfect for beauty, fashion, or thrift advertising.
 - **email_temp_apparel_simp** --> Simplified version for some HTML email plugins. 
@@ -10,10 +10,10 @@
 - **email_temp_simple_sim** --> Simplified version for some HTML email plugins. 
 
 
-###Samples###
+### Samples
 ![email_temp_apparel](sample.jpg)  ![email_temp_apparel](sample_2.jpg)
 
-##Usages##
+## Usages
 
 
 
