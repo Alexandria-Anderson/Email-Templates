@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>Blue Design</title>
+	
+</head>
+<body>
+	<table class="container">
+		<tr>
+			<td>
+				<table class="center">
+		<tr>
+			<td>
+				<h2><!--Add title here--></h2>
+			</td>
+		</tr>
+		<tr class="spacer padding center">		
+			<td class="spacer center">
+				<div class="stack center">
+					
+					<h1>SUMMER SALE</h1>
+					<img class="image" src="https://images.unsplash.com/photo-1512310604669-443f26c35f52?q=80&w=3268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image" />
+				</div>
+				<h2>BOLD. FRESH. FINDS.</h2>
+				<p>Tell the world about your business, update your customers on new developments, or just share something cool. A stylish email is not only more fun to look at, but it also gives your message more credibility. After you are done, direct your reader with a call to action! </p>
+				<button><a>Click Me</a></button>
+				
+				<div class="icons">
+					<br>
+					<div class="center">
+						<img src="img/cruelty_free_24dp_666666_FILL0_wght400_GRAD0_opsz24.svg">
+						<p class="tags">Cruelty free</p>
+					</div>
+					<br>
+					<div class="center">
+						<img src="img/eco_24dp_666666_FILL0_wght400_GRAD0_opsz24.svg">
+						<p class="tags">Sustainable</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<footer><a>Our Mission</a></footer>
+			</td>
+		</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+	<style>
+		
+		body{
+			max-width: 600px;
+			height: auto;
+			font-family: "Montserrat", sans-serif;
+ 			font-optical-sizing: auto;
+			margin: 10px;
+			object-fit: contain;
+		}
+		
+		button{
+			border-radius: 20px;
+			border: solid .5px rgba(255,255,255,0.00);
+			width: 100px;
+			height: 7vh;
+			color: white;
+			background: rgba(0,0,0,1.00);
+			box-shadow: 5px 3px 0 rgba(255,0,4,1.00);
+			font-weight: 100pt;
+			font-size: 100%;
+		}
+		
+		button a{
+			font-weight: 800;
+		}
+		p{
+			padding: 0% 10% 10% 10%;
+			text-align: center;
+			max-width: 600px;
+			line-height: 20pt;
+			font-weight: 300;
+		}
+		
+		footer{
+			width: 600px;
+			height: 20vh !important;
+			background: rgba(0,0,0,1.00);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		h1{
+			position: absolute;
+			transform: rotate(90deg);
+			font-size: 50pt;
+			width: 600px;
+			color: white;
+			font-family: "Bebas Neue", sans-serif;
+  			font-weight: 900;
+			color: rgba(255,255,255,1.00);
+			z-index: 10;
+			margin-top: 5%;
+			margin-left: 350px;
+		}
+
+		td, tr, table{
+			align-items: center;
+			padding: 0px;
+		}
+		
+		h2{
+			width: 600px;
+			color: rgba(0,0,0,1.00);
+			font-weight: 900;
+			font-size: 200%;
+			text-align: center;
+		}
+		
+		td{
+			padding: 0px;
+		}
+		
+		table{
+			spacing: 0;
+			border: 0;
+		}
+		
+		footer a{
+			padding: 10px;
+			color: white;
+  			font-weight: 100;
+			font-size: 80%;
+		}
+		
+		.icons{
+			width: 600px;
+			padding: 10vh 0vh 0vh 0vh;
+		}
+		
+		.tags{
+			color: #777777;
+			text-align: center;
+			padding: 0px 0px 0px 0px;
+			margin: 0px;
+			font-size: 11pt;
+		}
+		
+		.image{
+			max-width: 80%;
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+		
+		.image img{
+			width: 100%!important;
+			object-fit: contain;
+		}
+	
+		.center, table, tr, td, body, .container{
+			display: flex;
+			align-items: center !important;
+			justify-content: center!important;
+			align-content: center!important;
+			flex-direction: column;
+		}
+		.container {
+			width: 600px;	
+		}
+		
+		.spacer{
+			max-height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+		}
+	
+		.padding{
+			padding: 7%;
+			margin: 0px 0px 4% 0px;
+		}
+		
+		@media (max-width: 600px){
+			body{
+				max-width: 100vw;
+				object-fit: contain;
+			}
+			p, .image{
+				max-width: 65vw;
+			}
+			h1{
+				margin: none;
+				font-size: 9vw;
+				margin-left: 55%;
+				margin-top: 400px;
+				
+			}
+			h2{
+				font-size: 120%;
+			}
+			button{
+				width: 25vw;
+				
+			}
+			button a{
+				font-size: 70%;
+			}
+			.icons{
+				max-width: 100vw;
+				display: flex;
+				align-items: center;
+				margin-top: 10%;
+			}
+			.tags{
+				width: 50vw;
+				color: rgba(33,33,33,1.00);
+				font-style: italic;
+				font-weight: 300;
+			}
+		}
+		@media (min-width: 350px) and (max-width: 500px) {
+			h1 {
+				margin-top: 320px;
+			}
+		}
+		
+		@media (min-width: 499px) and (max-width: 599px) {
+			h1 {
+				margin-top: 250px;
+			}
+		}
+		
+	</style>
+</html>
