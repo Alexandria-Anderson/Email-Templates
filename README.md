@@ -13,4 +13,4 @@
 ### Samples
 ![email_temp_apparel](img/sample.png)  ![email_temp_apparel](img/sample_2.png)
 
-**Coming Soon**
+/**Coming Soon/**
